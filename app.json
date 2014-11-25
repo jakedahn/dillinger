@@ -15,43 +15,56 @@
   "addons": [],
   "env": {
     "dropbox_app_key": {
-        "description": "dropbox application key"
+        "description": "dropbox application key",
+        "required": false
     },
     "dropbox_app_secret": {
-        "description": "dropbox secret key"
+        "description": "dropbox secret key",
+        "required": false
     },
     "dropbox_callback_url": {
-        "description": "the callback url that dropbox should redirect you after youve logged in. (hint: this should point back to your heroku app)"
+        "description": "the callback url that dropbox should redirect you after youve logged in. (hint: this should point back to your heroku app)",
+        "required": false
     },
     "github_client_id": {
-        "description": "github application key"
+        "description": "github application key",
+        "required": false
     },
     "github_client_secret": {
-        "description": "github application key"
+        "description": "github application key",
+        "required": false
     },
     "github_callback_url": {
-        "description": "the callback url that github should redirect you after youve logged in. (hint: this should point back to your heroku app)"
+        "description": "the callback url that github should redirect you after youve logged in. (hint: this should point back to your heroku app)",
+        "required": false
     },
     "github_redirect_uri": {
-        "description": "the callback url that github should redirect you after youve logged in. (hint: this should point back to your heroku app)"
+        "description": "the callback url that github should redirect you after youve logged in. (hint: this should point back to your heroku app)",
+        "required": false
     },
     "googledrive_client_id": {
-        "description": "googledrive application key"
+        "description": "googledrive application key",
+        "required": false
     },
     "googledrive_client_secret": {
-        "description": "googledrive application key"
+        "description": "googledrive application key",
+        "required": false
     },
     "googledrive_redirect_uri": {
-        "description": "the callback url that google should redirect you after youve logged in. (hint: this should point back to your heroku app)"
+        "description": "the callback url that google should redirect you after youve logged in. (hint: this should point back to your heroku app)",
+        "required": false
     },
     "onedrive_client_id": {
-        "description": "onedrive application key"
+        "description": "onedrive application key",
+        "required": false
     },
     "onedrive_client_secret": {
-        "description": "onedrive application key"
+        "description": "onedrive application key",
+        "required": false
     },
     "onedrive_redirect_uri": {
-        "description": "the callback url that onedrive should redirect you after youve logged in. (hint: this should point back to your heroku app)"
+        "description": "the callback url that onedrive should redirect you after youve logged in. (hint: this should point back to your heroku app)",
+        "required": false
     }
 
   }
